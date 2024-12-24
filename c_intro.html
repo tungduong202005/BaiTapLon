@@ -1,47 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới thiệu về C</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Introduction to C Programming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            border-bottom: 2px solid #ddd;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        section {
+            margin: 20px 0;
+        }
+        section h2 {
+            color: #555;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+            border-top: 2px solid #ddd;
+        }
+        code {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 2px 4px;
+            font-family: "Courier New", Courier, monospace;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
 </head>
-
 <body>
     <header>
-        <div class="container">
-            <h1>Giới thiệu về C</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Trang chủ</a></li>
-                    <li><a href="cpp_intro.html">Giới thiệu C++</a></li>
-                    <li><a href="examples.html">Ví dụ</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Welcome to C Programming</h1>
+        <p>Your gateway to mastering one of the most influential programming languages!</p>
     </header>
 
-    <main>
-        <div class="content">
-            <h2>Ngôn ngữ lập trình C</h2>
-            <p>C là một trong những ngôn ngữ lập trình cổ điển và phổ biến nhất. Nó được Dennis Ritchie phát triển vào
-                năm 1972 và là nền tảng cho nhiều ngôn ngữ lập trình hiện đại.</p>
-            <h3>Cấu trúc cơ bản của một chương trình C</h3>
-            <pre>
-#include <stdio.h>
+    <section>
+        <h2>What is C?</h2>
+        <p>C is a powerful, general-purpose programming language that serves as the foundation for many modern languages. It was developed in the early 1970s by Dennis Ritchie at Bell Labs. Known for its efficiency and flexibility, C has become a staple in system software, operating systems, and embedded systems.</p>
+    </section>
+
+    <section>
+        <h2>Key Features of C</h2>
+        <ul>
+            <li><strong>Simple and efficient:</strong> The language is easy to understand and executes efficiently.</li>
+            <li><strong>Rich library support:</strong> C provides numerous built-in functions and operators for various tasks.</li>
+            <li><strong>Low-level access:</strong> It allows direct manipulation of hardware and memory.</li>
+            <li><strong>Portability:</strong> Code written in C can be easily compiled and run on different machines.</li>
+            <li><strong>Structured programming:</strong> Encourages breaking a program into reusable functions for better organization.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Applications of C</h2>
+        <p>C plays a critical role in numerous domains, such as:</p>
+        <ul>
+            <li><strong>Operating Systems:</strong> Many OS kernels, like Linux, are written in C.</li>
+            <li><strong>System Software:</strong> Utilities, compilers, and interpreters are often built with C.</li>
+            <li><strong>Embedded Systems:</strong> C is widely used in microcontroller programming.</li>
+            <li><strong>Game Development:</strong> Many games and engines rely on C for performance.</li>
+            <li><strong>Database Management:</strong> Popular systems like MySQL use C as their foundation.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Sample C Code</h2>
+        <p>Below is a simple program to print "Hello, World!" in C:</p>
+        <pre><code>#include &lt;stdio.h&gt;
 
 int main() {
-    printf("Hello, World!");
+    printf("Hello, World!\n");
     return 0;
-}
-            </pre>
-        </div>
-    </main>
+}</code></pre>
+        <p>This code demonstrates the basic structure of a C program, including headers, the main function, and standard output.</p>
+    </section>
+
+    <section>
+        <h2>Why Learn C?</h2>
+        <p>Learning C provides a strong foundation for programming concepts and helps you:</p>
+        <ul>
+            <li>Understand how computers work at a low level.</li>
+            <li>Write efficient, fast, and reliable code.</li>
+            <li>Transition easily to other programming languages like C++ or Java.</li>
+            <li>Develop problem-solving and debugging skills.</li>
+        </ul>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Hướng dẫn học tập C & C++</p>
+        <p>&copy; 2024 Introduction to C Programming. Happy Coding!</p>
     </footer>
 </body>
-
 </html>
